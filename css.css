@@ -1,0 +1,169 @@
+/*  details page css start */ 
+*{
+    
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.body{
+    background-color: rgba(77, 73, 73, 0.913);
+    display: flex;
+    justify-content: center;
+}
+.dcontainer{
+    width: 80%;
+    height: 600px;
+    background-color: white;
+    margin-top: 50px;
+    box-shadow: 10px 10px 3px black;
+    position: relative;
+
+}
+.body .dcontainer .h1{
+    width: 100%;
+    background-color: rgb(30, 183, 104);
+    text-align: center;
+    height: 60px;
+    
+}
+.body .dcontainer .h1 h1{
+    color: whitesmoke;
+    font-weight: 900;
+   /* font-family: Algerian; */
+   line-height: 60px;
+   font-size: 40px;
+}
+.body .dcontainer .nav{
+    background-color: rgba(0, 0, 0, 0.909);
+    color: white;
+    height: 40px;
+    
+}
+.body .dcontainer .nav ul li{
+    display: inline-block;
+}
+.body .dcontainer .nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.body .dcontainer .main{
+    width: 95%;
+    height: auto;
+    /* background-color: red; */
+    margin: 20px 20px;
+    position: relative;
+    
+}
+.body .dcontainer .main h2{
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    
+}
+.body .dcontainer .main .main-con{
+    width: 100%;
+}
+.body .dcontainer .main .main-con .table{
+    margin-left:20px ;
+    
+    
+    
+}
+.body .dcontainer .main .main-con .table thead {
+    background-color: black;
+    color: white;
+    height: 20px;
+    font-size: 25px;
+    padding-bottom: 10px;
+    
+}
+.body .dcontainer .main .main-con .table thead tr th{
+    padding: 5px;
+}
+
+.body .dcontainer .main .main-con .table tbody {
+    padding: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px;
+}
+.body .dcontainer .main .main-con .table tbody tr td{
+    padding: 5px;
+}
+.body .dcontainer .main .main-con .table tbody tr td .action{
+    display: inline-block;
+    width: 60px;
+    padding-left:10px ;
+    background-color: orange;
+    text-decoration: none;
+}
+.body .dcontainer .main .main-con .table tbody tr td .d1{
+    width: 90px;
+    margin-left: 20px;
+    background-color: red;
+    /* margin-right: 0px; */
+}
+
+ 
+/* details page css end */
+
+
+/* add new record css start */
+.body .dcontainer .main .data{
+    width: 40%;
+    background-color: rgba(215, 210, 210, 0.785);
+    padding: 30px;
+    margin: 0 auto;
+}
+.body .dcontainer .main .data label{
+    font-size: 25px;
+    font-weight: 500;
+}
+.body .dcontainer .main .data input,.body .dcontainer .main .data select{
+    width: 250px;
+    height: 30px;
+    margin-left: 50px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.body .dcontainer .main .data .address{
+    margin-left: 26px;
+}
+.body .dcontainer .main .data .gender{
+    margin-left: 34px;
+}
+.body .dcontainer .main .data .class{
+    margin-left: 53px;
+}
+.body .dcontainer .main .data .mobile{
+    margin-left: 42px;
+}
+.body .dcontainer .main .data .submit{
+    background-color: rgb(30, 183, 104);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* add new record css end */
+
+/* edit record inline css same as add new css */
+
+/* udate record css start */
+.body .dcontainer .main .data .search{
+    width: 100px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin: 10px 70px;
+    cursor: pointer;
+    
+}
+
+/* udate record css end */

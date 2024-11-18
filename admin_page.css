@@ -1,0 +1,119 @@
+/* admin login page css start */
+*{
+    
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.abody{
+    background-image: url(img/banner.png);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.alogin{
+    width: 25%;
+    min-height: 350px;
+    background-color: whitesmoke;
+    margin-top: 150px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 1px black;
+}
+.alogin h1{
+    text-align: center;
+    
+    /* font-family: Algerian; */
+    /* font-family:  sans-serif; */
+    font-weight: bold;
+    font-family: Elephant;
+    font-size: 40px;
+    margin: 25px;
+    /* font-style: italic; */
+    color: rgb(48, 84, 94);
+}
+.alogin .atext{
+    
+    width: 70%;
+    height: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 5px 50px;
+    border: none;
+    outline: 2px solid rgb(48, 84, 94);
+
+}
+.alogin .asubmit, .container .rsubmit{
+    width: 70%;
+    height: 40px;
+    padding:5px 20px;
+    border-radius: 5px;
+    margin: 20px 50px;
+    color: white;
+    background-color: rgb(48, 84, 94);
+    box-shadow: 2px 2px 2px black;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.alogin p{
+    margin: 20px;
+    font-size: 15px;
+    color: gray;
+}
+.alogin p a{
+    font-weight: bold;
+    
+}
+
+/* admin login page css start */
+
+
+/* admin register page css start  */
+.abody .container{
+    width: 27%;
+    min-height:520px;
+    background-color: whitesmoke;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px black, -3px -3px 2px white;
+}
+
+.container h1{
+    font-size: 25px;
+    font-family:  sans-serif;
+    text-align: center;
+    margin: 15px;
+    color: rgb(48, 84, 94);
+    margin-bottom: 40px;
+}
+.container .rtext{
+    width: 70%;
+    height: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 3px 50px;
+    border: none;
+    outline: 2px solid rgb(48, 84, 94);
+}
+.container .check{
+    margin-left: 50px ;
+    
+}
+.container  label{
+    font-size: 15px;
+    color: gray;
+}
+.container p{
+    margin-left: 50px;
+    color: gray;
+}
+.container p a{
+    font-weight: bold;
+    
+}
+/* admin register page css end  */
+
+
